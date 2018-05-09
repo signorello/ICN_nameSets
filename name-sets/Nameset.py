@@ -11,6 +11,7 @@ class Nameset:
   names = []
   n_lengths = []
   comp_lengths = []
+  filtered_lines = 0
   avg_name_len = 0.0
   std_name_len = 0.0
   var_name_len = 0.0
@@ -20,12 +21,12 @@ class Nameset:
   filename = ""
 
 
-  def __init__(self, filename):
+  def __init__(self, filename,max_components = None):
     self.filename = filename
-    self.load_names(filename)
+    self.load_names(filename,max_components)
 
 
-  def load_names(self, file_name):
+  def load_names(self, file_name, max_components = None):
     if not os.path.isfile(file_name):
             print "File %s does not exist" % file_name
 	    sys.exit(-1)
@@ -35,14 +36,15 @@ class Nameset:
     f = open(file_name,'r')
     start = time.time()
     try: 
-      lines = [line.rstrip('\n') for line in f]
 
-      for entry in lines:
-        name = self.process_entry(entry) 
-        self.names.append(name)
-        self.n_lengths.append(name.name_len)
-        self.comp_lengths.append(name.length_inComponents())
-
+      for entry in f:
+        name = self.process_entry(entry,max_components) 
+	if(name != None):
+	  self.names.append(name)
+          self.n_lengths.append(name.name_len)
+          self.comp_lengths.append(name.length_inComponents())
+	else:
+	  self.filtered_lines += 1
 
       self.compute_stats()
 
@@ -56,19 +58,23 @@ class Nameset:
   def compute_stats(self):
     self.avg_num_comp = st.mean(self.comp_lengths) 
     self.std_num_comp = st.stdev(self.comp_lengths) 
-    self.var_num_comp = st.variance(self.comp_lengths) 
+    self.var_num_comp = st.variance(self.comp_lengths,self.avg_num_comp) 
 
     self.avg_name_len = st.mean(self.n_lengths) 
     self.std_name_len = st.stdev(self.n_lengths) 
-    self.var_name_len = st.variance(self.n_lengths) 
+    self.var_name_len = st.variance(self.n_lengths,self.avg_name_len) 
 
-  def process_entry(self, entry):
+  def process_entry(self, entry, max_components = None):
     #print 'Name: \" %s \"' % entry
     
     name_components = entry.split('/')
-    name_components.reverse()
-    name_components.pop()
-    name_components.reverse()
+    #print 'Split: \" %s \"' % name_components
+
+    if(max_components != None):
+      if(len(name_components) > max_components):
+	return None
+
+    #print 'Entry: \" %s \"' % name_components
 
     name = Nameentry(name_components)
 
@@ -85,6 +91,10 @@ class Nameset:
 
     print 'The average name length in characters is %s with variance %s' % (self.avg_name_len,self.var_name_len)
 
+    if (self.filtered_lines != 0):
+      perc_filtered = self.filtered_lines * 100/(self.filtered_lines+len(self.names))
+      print 'The percentage of filtered name is %s: ' % perc_filtered
+
   def plotStats(self):
     plt.hist(self.comp_lengths, bins=range(max(self.comp_lengths)), normed=True)
     plt.title("Distribution of the number of components")
@@ -97,6 +107,14 @@ class Nameset:
     plt.xlabel("Name lengths")
     plt.ylabel("Probability")
     plt.savefig("Name_lengths_distribution.png")
+
+  # This method is meant to retrieve statistical information to compare it with other NameSet objects
+  # e.g., assume you want to compare the name length distribution of two different files
+  def getStats(self):
+    components_hist = plt.hist(self.comp_lengths, bins=range(max(self.comp_lengths)), normed=True)
+    names_hist = plt.hist(self.n_lengths, bins=range(max(self.n_lengths)), normed=True)
+
+    return names_hist, components_hist
 
 class Nameentry:
   components = []
@@ -124,6 +142,9 @@ def parse_args():
     parser.add_argument('-f', help='file containing the ICN names',
                         type=str, action="store", required=True, dest="file_name")
 
+    parser.add_argument('-c', help='max number of components permitted',
+                        type=int, action="store", required=False, dest="max_c")
+
     return parser.parse_args()
 
 def main():
@@ -133,7 +154,7 @@ def main():
     if args.file_name is not None:
       file_name = args.file_name
 
-    my_nameset = Nameset(file_name)
+    my_nameset = Nameset(file_name,args.max_c)
     my_nameset.printStats()
     my_nameset.plotStats()
     

@@ -1,0 +1,5 @@
+﻿204.95.60.12/servlet/StorageGuard/update/updateclientversion=2.1&version=99.99&language=enu&oem=vsg&bannerDate=05/01/2010
+com/tribalfusion/cdn5/media/261216.gif
+jp/ddcd/info/ddcd3_info/fujitsu/Fujitsu_JPN_CD_News(421).txt
+jp/ddcd/info/ddcd3_info/fujitsu/Fujitsu_JPN_CD(421).txt
+jp/ddcd/info/ddcd3_info/fujitsu/Fujitsu_JPN_CD_BLN(421).txt
