@@ -1,0 +1,332 @@
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_7.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_7.txt
+File read in 22.1918721199 sec
+This name-set contains: " 922329 " entries
+The average name length in components is 6.23051969525 with std_dev 1.53298096349
+The average name length in characters is 49.0241898498 with std_dev 27.1020483414
+The percentage of filtered name is 7: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 997 different components at 0
+Collision probability is  [0.006018054162487462] 
+There are 27212 different components at 1
+Collision probability is  [0.006018054162487462, 0.1828605027193885] 
+There are 15077 different components at 2
+Collision probability is  [0.006018054162487462, 0.1828605027193885, 0.1039994693904623] 
+There are 54544 different components at 3
+Collision probability is  [0.006018054162487462, 0.1828605027193885, 0.1039994693904623, 0.3199985332942212] 
+There are 147689 different components at 4
+Collision probability is  [0.006018054162487462, 0.1828605027193885, 0.1039994693904623, 0.3199985332942212, 0.6030036089349917] 
+There are 150371 different components at 5
+Collision probability is  [0.006018054162487462, 0.1828605027193885, 0.1039994693904623, 0.3199985332942212, 0.6030036089349917, 0.6088873519495115] 
+There are 90038 different components at 6
+Collision probability is  [0.006018054162487462, 0.1828605027193885, 0.1039994693904623, 0.3199985332942212, 0.6030036089349917, 0.6088873519495115, 0.4566183167107221] 
+There are 65746 different components at 7
+Collision probability is  [0.006018054162487462, 0.1828605027193885, 0.1039994693904623, 0.3199985332942212, 0.6030036089349917, 0.6088873519495115, 0.4566183167107221, 0.3684178505156207] 
+Collision probability for prefix of length 3 is 0.0003521470
+Collision probability for prefix of length 4 is 0.0002123459
+Collision probability for prefix of length 5 is 0.0001292947
+Collision probability for prefix of length 6 is 0.0000590383
+Collision probability for prefix of length 7 is 0.0000217508
+Prefix collision probabilities:
+[None, None, 0.0011004644095449659, 0.0003521469969968802, 0.00021234591006473845, 0.00012929473887662773, 5.903834602539811e-05, 2.1750780540674612e-05]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_3.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_3.txt
+File read in 36.3177480698 sec
+This name-set contains: " 1861671 " entries
+The average name length in components is 6.29718408892 with std_dev 1.59884974999
+The average name length in characters is 51.0639479264 with std_dev 28.6996169041
+The percentage of filtered name is 3: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 2003 different components at 0
+Collision probability is  [0.011982026959560658] 
+There are 51277 different components at 1
+Collision probability is  [0.011982026959560658, 0.307701308578895] 
+There are 29412 different components at 2
+Collision probability is  [0.011982026959560658, 0.307701308578895, 0.18931048551611587] 
+There are 99703 different components at 3
+Collision probability is  [0.011982026959560658, 0.307701308578895, 0.18931048551611587, 0.48600343018765735] 
+There are 273946 different components at 4
+Collision probability is  [0.011982026959560658, 0.307701308578895, 0.18931048551611587, 0.48600343018765735, 0.7643221656822877] 
+There are 291900 different components at 5
+Collision probability is  [0.011982026959560658, 0.307701308578895, 0.18931048551611587, 0.48600343018765735, 0.7643221656822877, 0.7780644056183624] 
+There are 176615 different components at 6
+Collision probability is  [0.011982026959560658, 0.307701308578895, 0.18931048551611587, 0.48600343018765735, 0.7643221656822877, 0.7780644056183624, 0.6541573479036322] 
+There are 133158 different components at 7
+Collision probability is  [0.011982026959560658, 0.307701308578895, 0.18931048551611587, 0.48600343018765735, 0.7643221656822877, 0.7780644056183624, 0.6541573479036322, 0.5730485588548941] 
+Collision probability for prefix of length 3 is 0.0017918389
+Collision probability for prefix of length 4 is 0.0013695422
+Collision probability for prefix of length 5 is 0.0010655921
+Collision probability for prefix of length 6 is 0.0006970649
+Collision probability for prefix of length 7 is 0.0003994520
+Prefix collision probabilities:
+[None, None, 0.003686885374884413, 0.0017918389389025317, 0.0013695422183358354, 0.0010655920520787252, 0.000697064870735008, 0.00039945201960306945]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_2.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_2.txt
+File read in 50.105317831 sec
+This name-set contains: " 2787432 " entries
+The average name length in components is 6.26061981064 with std_dev 1.55311791974
+The average name length in characters is 50.7887173571 with std_dev 28.6737728248
+The percentage of filtered name is 2: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 2591 different components at 0
+Collision probability is  [0.015824006175221922] 
+There are 72291 different components at 1
+Collision probability is  [0.015824006175221922, 0.3945166064932011] 
+There are 41997 different components at 2
+Collision probability is  [0.015824006175221922, 0.3945166064932011, 0.26075672071814654] 
+There are 135018 different components at 3
+Collision probability is  [0.015824006175221922, 0.3945166064932011, 0.26075672071814654, 0.575767675421055] 
+There are 404766 different components at 4
+Collision probability is  [0.015824006175221922, 0.3945166064932011, 0.26075672071814654, 0.575767675421055, 0.8384029290997762] 
+There are 407077 different components at 5
+Collision probability is  [0.015824006175221922, 0.3945166064932011, 0.26075672071814654, 0.575767675421055, 0.8384029290997762, 0.8393203251473309] 
+There are 268474 different components at 6
+Collision probability is  [0.015824006175221922, 0.3945166064932011, 0.26075672071814654, 0.575767675421055, 0.8384029290997762, 0.8393203251473309, 0.7598426663289555] 
+There are 181805 different components at 7
+Collision probability is  [0.015824006175221922, 0.3945166064932011, 0.26075672071814654, 0.575767675421055, 0.8384029290997762, 0.8393203251473309, 0.7598426663289555, 0.6622315117846044] 
+Collision probability for prefix of length 3 is 0.0035944216
+Collision probability for prefix of length 4 is 0.0030135736
+Collision probability for prefix of length 5 is 0.0025293536
+Collision probability for prefix of length 6 is 0.0019219107
+Collision probability for prefix of length 7 is 0.0012727499
+Prefix collision probabilities:
+[None, None, 0.006242833217376011, 0.0035944215696099317, 0.0030135735723803817, 0.0025293535506257054, 0.0019219107459960466, 0.0012727498588360386]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_6.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_6.txt
+File read in 66.2222321033 sec
+This name-set contains: " 3710062 " entries
+The average name length in components is 6.29223986014 with std_dev 1.5739443684
+The average name length in characters is 51.3868105169 with std_dev 29.110217179
+The percentage of filtered name is 2: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 3138 different components at 0
+Collision probability is  [0.020076481835564052] 
+There are 86229 different components at 1
+Collision probability is  [0.020076481835564052, 0.4441661158079068] 
+There are 50572 different components at 2
+Collision probability is  [0.020076481835564052, 0.4441661158079068, 0.3023807640591632] 
+There are 168958 different components at 3
+Collision probability is  [0.020076481835564052, 0.4441661158079068, 0.3023807640591632, 0.6417156926573468] 
+There are 509075 different components at 4
+Collision probability is  [0.020076481835564052, 0.4441661158079068, 0.3023807640591632, 0.6417156926573468, 0.8713018710406129] 
+There are 525396 different components at 5
+Collision probability is  [0.020076481835564052, 0.4441661158079068, 0.3023807640591632, 0.6417156926573468, 0.8713018710406129, 0.8752940639060822] 
+There are 338528 different components at 6
+Collision probability is  [0.020076481835564052, 0.4441661158079068, 0.3023807640591632, 0.6417156926573468, 0.8713018710406129, 0.8752940639060822, 0.8074605350222138] 
+There are 234117 different components at 7
+Collision probability is  [0.020076481835564052, 0.4441661158079068, 0.3023807640591632, 0.6417156926573468, 0.8713018710406129, 0.8752940639060822, 0.8074605350222138, 0.7278540217070951] 
+Collision probability for prefix of length 3 is 0.0057223668
+Collision probability for prefix of length 4 is 0.0049859089
+Collision probability for prefix of length 5 is 0.0043641365
+Collision probability for prefix of length 6 is 0.0035238680
+Collision probability for prefix of length 7 is 0.0025648615
+Prefix collision probabilities:
+[None, None, 0.00891729295599048, 0.005722366825881911, 0.004985908922171642, 0.004364136482753211, 0.0035238679792738703, 0.002564861480679341]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_1.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_1.txt
+File read in 82.2478098869 sec
+This name-set contains: " 4654654 " entries
+The average name length in components is 6.26625416196 with std_dev 1.54746607401
+The average name length in characters is 51.1939922924 with std_dev 29.2858822199
+The percentage of filtered name is 1: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 3720 different components at 0
+Collision probability is  [0.025537634408602152] 
+There are 99695 different components at 1
+Collision probability is  [0.025537634408602152, 0.4867144791614424] 
+There are 59566 different components at 2
+Collision probability is  [0.025537634408602152, 0.4867144791614424, 0.3404626800523789] 
+There are 198597 different components at 3
+Collision probability is  [0.025537634408602152, 0.4867144791614424, 0.3404626800523789, 0.6860526594057312] 
+There are 624232 different components at 4
+Collision probability is  [0.025537634408602152, 0.4867144791614424, 0.3404626800523789, 0.6860526594057312, 0.8950149944251496] 
+There are 632425 different components at 5
+Collision probability is  [0.025537634408602152, 0.4867144791614424, 0.3404626800523789, 0.6860526594057312, 0.8950149944251496, 0.8963734830217022] 
+There are 413680 different components at 6
+Collision probability is  [0.025537634408602152, 0.4867144791614424, 0.3404626800523789, 0.6860526594057312, 0.8950149944251496, 0.8963734830217022, 0.8418439373428738] 
+There are 285337 different components at 7
+Collision probability is  [0.025537634408602152, 0.4867144791614424, 0.3404626800523789, 0.6860526594057312, 0.8950149944251496, 0.8963734830217022, 0.8418439373428738, 0.7733346884561063] 
+Collision probability for prefix of length 3 is 0.0085273165
+Collision probability for prefix of length 4 is 0.0076320762
+Collision probability for prefix of length 5 is 0.0068411907
+Collision probability for prefix of length 6 is 0.0057592149
+Collision probability for prefix of length 7 is 0.0044538007
+Prefix collision probabilities:
+[None, None, 0.012429536430198127, 0.008527316523117844, 0.0076320761503998035, 0.006841190681620736, 0.0057592148995289786, 0.004453800660079008]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_4.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_4.txt
+File read in 94.0235509872 sec
+This name-set contains: " 5590962 " entries
+The average name length in components is 6.27018981707 with std_dev 1.55560646006
+The average name length in characters is 51.2819203565 with std_dev 29.2624446139
+The percentage of filtered name is 1: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 4095 different components at 0
+Collision probability is  [0.02857142857142857] 
+There are 110283 different components at 1
+Collision probability is  [0.02857142857142857, 0.5165710036905053] 
+There are 66826 different components at 2
+Collision probability is  [0.02857142857142857, 0.5165710036905053, 0.37100829018645437] 
+There are 232076 different components at 3
+Collision probability is  [0.02857142857142857, 0.5165710036905053, 0.37100829018645437, 0.7259561522949378] 
+There are 727174 different components at 4
+Collision probability is  [0.02857142857142857, 0.5165710036905053, 0.37100829018645437, 0.7259561522949378, 0.909875765635185] 
+There are 745126 different components at 5
+Collision probability is  [0.02857142857142857, 0.5165710036905053, 0.37100829018645437, 0.7259561522949378, 0.909875765635185, 0.9120470900223586] 
+There are 478884 different components at 6
+Collision probability is  [0.02857142857142857, 0.5165710036905053, 0.37100829018645437, 0.7259561522949378, 0.909875765635185, 0.9120470900223586, 0.8632278380568155] 
+There are 333563 different components at 7
+Collision probability is  [0.02857142857142857, 0.5165710036905053, 0.37100829018645437, 0.7259561522949378, 0.909875765635185, 0.9120470900223586, 0.8632278380568155, 0.8047895000344762] 
+Collision probability for prefix of length 3 is 0.0107145114
+Collision probability for prefix of length 4 is 0.0097488742
+Collision probability for prefix of length 5 is 0.0088914324
+Collision probability for prefix of length 6 is 0.0076753320
+Collision probability for prefix of length 7 is 0.0061770266
+Prefix collision probabilities:
+[None, None, 0.014759171534014438, 0.010714511377894097, 0.009748874243368294, 0.008891432384657975, 0.007675331954636659, 0.0061770265663706764]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_13.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_13.txt
+File read in 110.621951818 sec
+This name-set contains: " 6494037 " entries
+The average name length in components is 6.25771180546 with std_dev 1.54429806727
+The average name length in characters is 51.146246164 with std_dev 28.992248266
+The percentage of filtered name is 1: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 4312 different components at 0
+Collision probability is  [0.029916512059369203] 
+There are 115727 different components at 1
+Collision probability is  [0.029916512059369203, 0.530852782842379] 
+There are 72079 different components at 2
+Collision probability is  [0.029916512059369203, 0.530852782842379, 0.3919172019589617] 
+There are 252060 different components at 3
+Collision probability is  [0.029916512059369203, 0.530852782842379, 0.3919172019589617, 0.7457034039514401] 
+There are 818908 different components at 4
+Collision probability is  [0.029916512059369203, 0.530852782842379, 0.3919172019589617, 0.7457034039514401, 0.9199714742071149] 
+There are 830059 different components at 5
+Collision probability is  [0.029916512059369203, 0.530852782842379, 0.3919172019589617, 0.7457034039514401, 0.9199714742071149, 0.9210465762072335] 
+There are 533183 different components at 6
+Collision probability is  [0.029916512059369203, 0.530852782842379, 0.3919172019589617, 0.7457034039514401, 0.9199714742071149, 0.9210465762072335, 0.8771191129499628] 
+There are 370586 different components at 7
+Collision probability is  [0.029916512059369203, 0.530852782842379, 0.3919172019589617, 0.7457034039514401, 0.9199714742071149, 0.9210465762072335, 0.8771191129499628, 0.8237817942393938] 
+Collision probability for prefix of length 3 is 0.0118427124
+Collision probability for prefix of length 4 is 0.0108949576
+Collision probability for prefix of length 5 is 0.0100347634
+Collision probability for prefix of length 6 is 0.0088016827
+Collision probability for prefix of length 7 is 0.0072506660
+Prefix collision probabilities:
+[None, None, 0.015881263679653732, 0.011842712384968162, 0.010894957571410017, 0.010034763369070271, 0.008801682744941697, 0.007250666003953983]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_11.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_11.txt
+File read in 123.400115013 sec
+This name-set contains: " 7401991 " entries
+The average name length in components is 6.24985493768 with std_dev 1.54066178921
+The average name length in characters is 50.9325885427 with std_dev 29.9635478356
+The percentage of filtered name is 1: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 4575 different components at 0
+Collision probability is  [0.032131147540983604] 
+There are 120192 different components at 1
+Collision probability is  [0.032131147540983604, 0.5423655484558041] 
+There are 79499 different components at 2
+Collision probability is  [0.032131147540983604, 0.5423655484558041, 0.4194266594548359] 
+There are 278077 different components at 3
+Collision probability is  [0.032131147540983604, 0.5423655484558041, 0.4194266594548359, 0.7676830518165831] 
+There are 921795 different components at 4
+Collision probability is  [0.032131147540983604, 0.5423655484558041, 0.4194266594548359, 0.7676830518165831, 0.9289039320022348] 
+There are 941029 different components at 5
+Collision probability is  [0.032131147540983604, 0.5423655484558041, 0.4194266594548359, 0.7676830518165831, 0.9289039320022348, 0.9303570878261987] 
+There are 606522 different components at 6
+Collision probability is  [0.032131147540983604, 0.5423655484558041, 0.4194266594548359, 0.7676830518165831, 0.9289039320022348, 0.9303570878261987, 0.8919594013077844] 
+There are 443861 different components at 7
+Collision probability is  [0.032131147540983604, 0.5423655484558041, 0.4194266594548359, 0.7676830518165831, 0.9289039320022348, 0.9303570878261987, 0.8919594013077844, 0.852541674082652] 
+Collision probability for prefix of length 3 is 0.0133782801
+Collision probability for prefix of length 4 is 0.0124271370
+Collision probability for prefix of length 5 is 0.0115616750
+Collision probability for prefix of length 6 is 0.0103125447
+Collision probability for prefix of length 7 is 0.0087918741
+Prefix collision probabilities:
+[None, None, 0.017426827458579933, 0.013378280086883673, 0.012427136976133443, 0.011561674967132785, 0.010312544681798956, 0.00879187410707303]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_10.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_10.txt
+File read in 141.523833036 sec
+This name-set contains: " 8326411 " entries
+The average name length in components is 6.24279500495 with std_dev 1.53729756712
+The average name length in characters is 50.6836848433 with std_dev 30.2505220821
+The percentage of filtered name is 0: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 4840 different components at 0
+Collision probability is  [0.03347107438016529] 
+There are 124603 different components at 1
+Collision probability is  [0.03347107438016529, 0.5529882908116177] 
+There are 85928 different components at 2
+Collision probability is  [0.03347107438016529, 0.5529882908116177, 0.4418001117214412] 
+There are 304870 different components at 3
+Collision probability is  [0.03347107438016529, 0.5529882908116177, 0.4418001117214412, 0.7869714960474956] 
+There are 1020808 different components at 4
+Collision probability is  [0.03347107438016529, 0.5529882908116177, 0.4418001117214412, 0.7869714960474956, 0.9357998761765189] 
+There are 1053203 different components at 5
+Collision probability is  [0.03347107438016529, 0.5529882908116177, 0.4418001117214412, 0.7869714960474956, 0.9357998761765189, 0.937774579069752] 
+There are 690629 different components at 6
+Collision probability is  [0.03347107438016529, 0.5529882908116177, 0.4418001117214412, 0.7869714960474956, 0.9357998761765189, 0.937774579069752, 0.9051082419070152] 
+There are 520292 different components at 7
+Collision probability is  [0.03347107438016529, 0.5529882908116177, 0.4418001117214412, 0.7869714960474956, 0.9357998761765189, 0.937774579069752, 0.9051082419070152, 0.8740880121162732] 
+Collision probability for prefix of length 3 is 0.0145661437
+Collision probability for prefix of length 4 is 0.0136309955
+Collision probability for prefix of length 5 is 0.0127828011
+Collision probability for prefix of length 6 is 0.0115698186
+Collision probability for prefix of length 7 is 0.0101130397
+Prefix collision probabilities:
+[None, None, 0.01850911221311613, 0.014566143728866974, 0.013630995497843091, 0.01278280106529149, 0.011569818598853103, 0.010113039739617394]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_14.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_14.txt
+File read in 146.882238865 sec
+This name-set contains: " 8830027 " entries
+The average name length in components is 6.239809799 with std_dev 1.5312725857
+The average name length in characters is 50.5387314218 with std_dev 29.8387175639
+The percentage of filtered name is 0: 
+nbins: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+max components in plot 9 
+Max comp of the name set is 9 
+There are 4941 different components at 0
+Collision probability is  [0.0358227079538555] 
+There are 127100 different components at 1
+Collision probability is  [0.0358227079538555, 0.5589535798583792] 
+There are 88469 different components at 2
+Collision probability is  [0.0358227079538555, 0.5589535798583792, 0.45044026721224384] 
+There are 314080 different components at 3
+Collision probability is  [0.0358227079538555, 0.5589535798583792, 0.45044026721224384, 0.7929699439633214] 
+There are 1073551 different components at 4
+Collision probability is  [0.0358227079538555, 0.5589535798583792, 0.45044026721224384, 0.7929699439633214, 0.9389539947333662] 
+There are 1094881 different components at 5
+Collision probability is  [0.0358227079538555, 0.5589535798583792, 0.45044026721224384, 0.7929699439633214, 0.9389539947333662, 0.9401432667111769] 
+There are 722558 different components at 6
+Collision probability is  [0.0358227079538555, 0.5589535798583792, 0.45044026721224384, 0.7929699439633214, 0.9389539947333662, 0.9401432667111769, 0.9093000146701026] 
+There are 543968 different components at 7
+Collision probability is  [0.0358227079538555, 0.5589535798583792, 0.45044026721224384, 0.7929699439633214, 0.9389539947333662, 0.9401432667111769, 0.9093000146701026, 0.8795535766809812] 
+Collision probability for prefix of length 3 is 0.0158778202
+Collision probability for prefix of length 4 is 0.0149085427
+Collision probability for prefix of length 5 is 0.0140161661
+Collision probability for prefix of length 6 is 0.0127449000
+Collision probability for prefix of length 7 is 0.0112098224
+Prefix collision probabilities:
+[None, None, 0.020023230851028764, 0.01587782024590493, 0.01490854274755075, 0.014016166080585587, 0.012744900022695068, 0.011209822399402965]
+processing file cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_8.txt 
+Reading ICN names from cisco-icn-names-2014-12/uncompressed/cisco-icn-names-2014-12_8.txt
