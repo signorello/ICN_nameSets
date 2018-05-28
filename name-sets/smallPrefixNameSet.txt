@@ -1,0 +1,8 @@
+SnT/blah/blah/pictures/ole.png
+SnT/blah/blah/pictures/ola.png
+SnT/blah/blah/pictures/olc.png
+SnT/main.logo
+ucla/maindir/otherthings/profile.lst
+ucla/maindir/otherthings/bingo.jpeg
+ucla/maindir/teaching/slidesLZhang.pdf
+ucla/maindir/teaching/slidesNDN.pdf

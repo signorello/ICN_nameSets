@@ -155,10 +155,13 @@ class Nameset:
 
 class Nameentry:
   components = []
+  content_id = None
+  prefix = False
   name_len = 0
 
   def __init__(self, components):
     self.components = copy.copy(components)
+    content_id = components[-1]
     for x in self.components:
       self.name_len += len(x)
 
@@ -170,6 +173,23 @@ class Nameentry:
     for c in self.components:
       lengths.add(len(c))
     return lengths
+
+  def get_name(self, protocol="", delimiter="/"):
+    full_name = protocol 
+    for x in self.components:
+        full_name += delimiter + str(x)
+    return full_name
+        
+  def plug_contentID(self):
+    if(self.prefix and (content_id is not None)):
+      self.components.append(content_id) 
+      self.prefix = False
+ 
+  def unplug_contentID(self):
+    if(not self.prefix):
+      del self.components[-1]
+      # you do not need to worry about saving the content identifier, since that is stored at the beginning in data member in the object's constructor
+      self.prefix = True
 
 def parse_args():
     usage = """Usage:"""
@@ -209,7 +229,8 @@ def computeHashProb(name_set, hash_function):
       collisions += 1.0
 
   #print "collisions holds %.2f" % collisions
-  probability = collisions /name_set.__len__()
+  if(name_set.__len__() is not 0):
+    probability = collisions /name_set.__len__()
 
   return probability
 
@@ -234,6 +255,9 @@ def main():
       print "processing file %s " % f
       my_nameset = Nameset(f,args.max_c)
       stats[f] = list( my_nameset.printStats() )
+
+      # test getname function
+      print "Test fullname %s " % my_nameset.names[0].get_name()
 
       if args.plot is not None:
         my_nameset.plotStats(comp_bins=args.max_bin_comp)
