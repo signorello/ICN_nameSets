@@ -12,27 +12,33 @@ class tlvn(Packet):
   
 
 # -- SAMPLE INTERACTION --
-# p=tlvn()
-# p.cmps.append(tlvc(value='portugal'));
-# p.cmps.append(tlvc(value='ulisboa'));
-# p.cmps.append(tlvc(value='fciencias'));
-# p.cmps.append(tlvc(value='index.html'));
-# p.show()
-# raw(p)
+# n=tlvn()
+# n.cmps.append(tlvc(value='portugal'));
+# n.cmps.append(tlvc(value='ulisboa'));
+# n.cmps.append(tlvc(value='fciencias'));
+# n.cmps.append(tlvc(value='index.html'));
+# n.show() # NOTE: This displays None for lengths because they're only calculated when the packet is assembled, with the following line:
+# raw(n)
 
-# Missing nonce accounting
 class TLV(Packet):
   name = "TLV"
   fields_desc=[ ByteEnumField("type", 0x05,
                               { 5: "Interest",
-                               6: "Data",
+                               6: "Data" }),
                                #7: "Name",
                                #8: "Component",
-                               10: "INTEREST-Nonce",
-                               20: "DATA-Metainfo",
-                               21: "DATA-Content",
-                               22: "DATA-SignatureInfo",
-                               23: "DATA-SignatureValue" } ),
-                BitFieldLenField("length", None, 8, length_of="tlvn"),# adjust=lambda pkt,x: pkt.length+4),
+                               #10: "INTEREST-Nonce",
+                               #20: "DATA-Metainfo",
+                               #21: "DATA-Content",
+                               #22: "DATA-SignatureInfo",
+                               #23: "DATA-SignatureValue" } ),
+                BitFieldLenField("length", None, 8, length_of="tlvn", adjust = lambda pkt, val: val + 4), 
+                #Would be nice if it was something like val + pkt.nonce.sz instead, but ok
                 PacketField("tlvn", None, tlvn),
                 IntField("nonce", 0x00000000) ]
+                
+# p = TLV()
+# p.tlvn = n  # NOTE: n is the result of the interaction in comment above
+# p.show()
+# raw(p)
+# hexdump (p)
