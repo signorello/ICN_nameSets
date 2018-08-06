@@ -1,3 +1,3 @@
-# NDN_p4_uniLisboa created by Salvatore Signorello, salvatore.signorello@gmail.com
+# More coming soon
 
-This is meant as private repository to share code and documents.
+This is meant to contain tools i) to perform statistical analysis on available name-sets for the ICN, ii) to leverage those names in other software for Interest/Data names generation.
